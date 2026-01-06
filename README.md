@@ -92,6 +92,8 @@ Agent: *builds it correctly the first time*
 | `iterate-plan` | Updating a plan based on feedback |
 | `commit` | Creating well-structured commits |
 
+*The other agents you'll see (like `codebase-analyzer`) are specialists that get called automatically—you don't need to use them directly. See [.kiro/steering/agents.md](.kiro/steering/agents.md) for details.*
+
 List all agents: `/agent list`
 
 ---
